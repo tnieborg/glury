@@ -1,0 +1,83 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+}
+
+@font-face {
+	font-family: Mist;
+	src: url(fonts/Mist-Regular.ttf);
+}
+
+.home__nav {
+	height: 25vh;
+	width: 100%;
+	background: white;
+}
+
+.nav__text {
+	position: absolute;
+	top: 8.3%;
+	left: 5.3%;
+}
+
+.nav__title {
+	color: yellow;
+	font-family: Mist;
+	font-size: 30px;
+}
+
+.nav__subtitle {
+	color: #aeaeae;
+	font-family: Mist;
+}
+
+.nav__otter {
+	position: relative;
+	top: 30%;
+	right: -32%;
+}
+
+.nav__logo {
+	position: absolute;
+	right: 5.3%;
+	top: 3.5%;
+	width: 10%;
+}
+
+.home__content {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	justify-content: space-between;
+	background: linear-gradient(#09b8ff, #09b8ff, #5bffd6);
+	height: 75vh;
+}
+
+.content__pattern {
+	position: absolute;
+	top: 0;
+	height: 100%;
+	width: 100%;
+}
+
+.content__otters {
+	height: 65%;
+	margin: auto 0;
+}
+
+.content__image {
+	height: 50%;
+	margin: auto 0;
+}
+
+.content__text {
+	margin-top: 15%;
+	width: 20%;
+	font-family: Mist;
+	color: white;
+}
